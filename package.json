@@ -1,0 +1,29 @@
+{
+  "name": "firebase-mailer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jonathan Diehl",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "eslint .",
+    "build": "tsc",
+    "start": "node dist/"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "firebase": "^8.2.3",
+    "nodemailer": "^6.4.17",
+    "nodemailer-sendgrid": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.0",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.18.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
